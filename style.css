@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 60px;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    width: 64%;
+    justify-content: space-between;
+}
+
+.header__title {
+    color: #3b5bdb;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header__input--search {
+    display: flex;
+    width: 60%;
+    height: 60%;
+}
+
+.input__box {
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 8px;
+    padding: 0px 15px;
+    height: 40px;
+}
+
+main {
+    display: flex;
+    background: #e2e2e2;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__container {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    background-color: white;
+    height: 150px;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 30px 30px;
+    margin: 20px auto
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form__input-container .form__button--add-task {
+    padding: 0px 25px;
+}
+
+.form__input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input--priority {
+    width: 27%;
+}
+
+.form__input--text {
+    width: 64%;
+}
+
+.form__button--add-task {
+    background-color: #3b5bdb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+}
+
+.tasks__container {
+    display: flex;
+    width: 60%;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 30px 30px;
+    margin: 20px auto;
+}
+
+.task-info__container {
+    display: flex;
+}
+
+ul.tasks__list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.task__item {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px 5px 0px;
+    background-color: #e2e2e2;
+    height: 40px;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 15px;
+    font-size: 12px;
+}
+
+.form__button--add-task {
+  cursor: pointer;
+}
+
+.task__button--remove-task {
+    background-image: url(./assets/trash-icon.svg);
+    background-repeat: no-repeat;
+    border: none;
+    margin: 3px;
+    height: 15px;
+    cursor: pointer;
+}    
+
+.task-type {
+    width: 10px;
+    border-radius: 100%;
+    height: 10px;
+    margin-right: 10px;
+}
+.span-urgent {
+    background-color: #e40404;
+}
+
+.span-important {
+    background-color: #f3a703;
+}
+
+.span-normal {
+    background-color: #028302;
+}
